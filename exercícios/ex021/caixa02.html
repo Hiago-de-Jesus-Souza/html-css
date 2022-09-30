@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        h1{
+            text-align: center;
+            font: bold black 
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(66, 63, 63);
+            padding: 3px;
+            margin: 5px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: brown;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article{
+            background-color: lightblue;
+        }
+
+        article > aside{
+            background-color: rgb(63, 97, 109);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+
+    <!--meu cabeçalho-->
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+     <!--Meu conteudo principal-->
+    <main>
+        <section>
+            <p>Esportes sobre o Brasil</p>
+        </section>
+
+        <section>
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia, temporibus nobis tenetur quidem eius cum, minus accusantium perspiciatis sint consequatur esse a error, veritatis sapiente similique voluptates vero facere?</p>
+                <aside>
+                    <p>Artigo escreito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+
+     <!--Meu roda-pé-->
+    <footer>
+      Desenvolvido pelo futuro desenvolvedor/programador
+    </footer>
+</body>
+</html>
